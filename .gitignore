@@ -1,0 +1,37 @@
+# Ignore Visual Studio files and directories
+.vs/
+*.vcxproj*
+*.sln
+x64/
+*.user
+
+# Ignore Git-specific directories
+.git/
+
+# Ignore build outputs
+*.obj
+*.exe
+*.ilk
+*.pdb
+*.lib
+*.dll
+*.exp
+*.idb
+*.log
+*.ninja
+
+# Ignore temporary and backup files
+*.tmp
+*.bak
+*.log
+*.temp
+
+# Ignore CUDA output files
+*.ptx
+*.cuobj
+
+# Ignore any other non-essential directories
+knn_cuda/
+
+# Keep core code files
+!main.cu
