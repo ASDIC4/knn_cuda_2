@@ -1,2 +1,1 @@
-Interim Report 2 - CUDA Code
-KNN in CUDA
+# Code for Interim Report 2 - KNN in CUDA 
